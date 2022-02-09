@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Form from './Form';
+import NavBar from './NavBar';
 import './App.css';
 
 class App extends Component {
@@ -10,10 +11,14 @@ class App extends Component {
     }
   }
 
+  addPoem = () => {
+    
+  }
+
   render() {
     return (
       <div className="App">
-        <h1>Hello, Poem!</h1>
+        <NavBar />
         <Form />
       </div>
     )
